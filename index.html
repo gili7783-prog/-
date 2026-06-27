@@ -83,7 +83,7 @@ h1,h2{font-family:'Gveret Levin AlefAlefAlef','Frank Ruhl Libre',serif}
 
 .what-card{background:rgba(236,225,204,0.07);border:1px solid rgba(196,168,212,0.2);border-radius:18px;padding:2rem;max-width:580px;margin:0 auto}
 .what-card p{font-size:16px;line-height:1.85;color:rgba(236,225,204,0.85);text-align:center}
-.tag{display:inline-block;background:rgba(95,73,117,0.6);border:1px solid var(--mid);color:var(--mid);font-size:13px;padding:5px 16px;border-radius:20px;margin-top:1.25rem}
+.tag{display:inline-block;background:rgba(95,73,117,0.6);border:1px solid var(--mid);color:#e8a0c8;font-size:17px;font-weight:700;padding:10px 28px;border-radius:20;text-shadow:0 0 10px rgba(232,160,200,0.8),0 0 22px rgba(196,168,212,0.5);box-shadow:0 0 14px rgba(95,73,117,0.5),0 0 28px rgba(155,109,165,0.3)px;margin-top:1.25rem}
 
 .price-cards{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:500px;margin:0 auto 2rem}
 .price-card{background:rgba(236,225,204,0.07);border:1px solid rgba(196,168,212,0.2);border-radius:18px;padding:1.75rem;text-align:center;transition:transform 0.2s}
@@ -124,10 +124,10 @@ h1,h2{font-family:'Gveret Levin AlefAlefAlef','Frank Ruhl Libre',serif}
 .section-testimonials{padding:4rem 0;overflow:hidden;background:rgba(15,8,25,0.97)}
 .section-testimonials .container{padding:0 24px;text-align:center}
 .tcarousel{display:flex;align-items:center;justify-content:center;gap:0.75rem;margin-top:2rem}
-.twindow{overflow:hidden;width:min(820px,90vw)}
+.twindow{overflow:hidden;width:min(900px,92vw)}
 .ttrack{display:flex;gap:1.25rem;transition:transform 0.4s ease}
-.tslide{flex:0 0 calc(33.333% - 0.85rem);border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(95,73,117,0.4)}
-.tslide img{width:100%;height:auto;display:block}
+.tslide{flex:0 0 calc(33.333% - 0.85rem);border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(95,73,117,0.4);background:rgba(255,255,255,0.06);border:1px solid rgba(196,168,212,0.25);padding:10px;backdrop-filter:blur(6px)}
+.tslide img{width:100%;height:auto;display:block;border-radius:10px}
 .tarrow{background:rgba(95,73,117,0.7);border:1px solid rgba(196,168,212,0.4);color:#ece1cc;font-size:2rem;width:44px;height:44px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:background 0.2s;line-height:1}
 .tarrow:hover{background:rgba(155,109,165,0.9)}
 .tdots{display:flex;justify-content:center;gap:8px;margin-top:1.25rem}
@@ -192,13 +192,13 @@ h1,h2{font-family:'Gveret Levin AlefAlefAlef','Frank Ruhl Libre',serif}
   <div class="container">
     <h2 class="section-title">האם גם את...?</h2>
     <div class="divider"></div>
-    <ul class="fw-list" style="max-width:560px;margin:0 auto">
-      <li><span class="dot" style="color:#4CAF50;font-size:18px">✔️</span> נמצאת בצומת בחיים?</li>
-      <li><span class="dot" style="color:#4CAF50;font-size:18px">✔️</span> מרגישה שהאינטואיציה שלך מנסה להגיד משהו?</li>
-      <li><span class="dot" style="color:#4CAF50;font-size:18px">✔️</span> מחפשת תשובות ולא מצליחה למצוא אותן דרך הראש?</li>
-      <li><span class="dot" style="color:#4CAF50;font-size:18px">✔️</span> רוצה להבין מה באמת עוצר אותך?</li>
-      <li><span class="dot" style="color:#4CAF50;font-size:18px">✔️</span> מרגישה שהגיע הזמן להתחבר לעצמך מחדש?</li>
-    </ul>
+    <div class="fw-grid" style="max-width:760px">
+      <div class="fw-box">✔️<br>נמצאת בצומת בחיים?</div>
+      <div class="fw-box">✔️<br>מרגישה שהאינטואיציה שלך מנסה להגיד משהו?</div>
+      <div class="fw-box">✔️<br>מחפשת תשובות ולא מצליחה למצוא אותן דרך הראש?</div>
+      <div class="fw-box">✔️<br>רוצה להבין מה באמת עוצר אותך?</div>
+      <div class="fw-box">✔️<br>מרגישה שהגיע הזמן להתחבר לעצמך מחדש?</div>
+    </div>
   </div>
 </section>
 
