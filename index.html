@@ -84,6 +84,7 @@ h1,h2{font-family:'Gveret Levin AlefAlefAlef','Frank Ruhl Libre',serif}
 .what-card{background:rgba(236,225,204,0.07);border:1px solid rgba(196,168,212,0.2);border-radius:18px;padding:2rem;max-width:580px;margin:0 auto}
 .what-card p{font-size:16px;line-height:1.85;color:rgba(236,225,204,0.85);text-align:center}
 .what-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem}
+.what-grid-card{margin:0;width:100%;max-width:none;box-sizing:border-box}
 .tag{display:inline-block;border:1px solid rgba(196,168,212,0.6);color:var(--cream);font-size:16px;padding:8px 28px;border-radius:20px;letter-spacing:1.5px;margin-top:1.25rem;font-weight:600;white-space:nowrap;text-shadow:0 0 8px rgba(236,225,204,0.6),0 0 18px rgba(196,168,212,0.35);box-shadow:0 0 10px rgba(196,168,212,0.15),0 0 22px rgba(95,73,117,0.2)}
 
 .price-cards{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:500px;margin:0 auto 2rem}
@@ -110,7 +111,7 @@ h1,h2{font-family:'Gveret Levin AlefAlefAlef','Frank Ruhl Libre',serif}
 .ig-icon{width:22px;height:22px;fill:var(--mid)}
 
 .sticky-cta{display:none;position:fixed;bottom:0;left:0;right:0;background:rgba(26,15,38,0.95);padding:14px 24px;z-index:100;text-align:center;border-top:1px solid rgba(196,168,212,0.2)}
-@media(max-width:600px){.sticky-cta{display:block}.footer{padding-bottom:80px}.price-cards{grid-template-columns:1fr}.what-grid{grid-template-columns:1fr;width:100%}.what-grid .what-card{margin:0 auto;width:100%}.hero h1{font-size:36px}.section-title{font-size:28px}.about-photo-wrap{width:150px;height:150px}.info-bar{flex-direction:column;gap:0.75rem;align-items:center}.info-bar-title{font-size:1.5rem}.info-item{font-size:16px}.hero-body{font-size:0.92rem}.glass-card p{font-size:0.95rem}.what-card p{font-size:0.95rem}.tcarousel{padding:0 0.25rem}.badge{font-size:12px;padding:6px 16px;letter-spacing:0.5px}}
+@media(max-width:600px){.sticky-cta{display:block}.footer{padding-bottom:80px}.price-cards{grid-template-columns:1fr}.what-grid{display:block}.what-grid-card{width:100%;max-width:none;margin:0 0 1.25rem 0}.hero h1{font-size:36px}.section-title{font-size:28px}.about-photo-wrap{width:150px;height:150px}.info-bar{flex-direction:column;gap:0.75rem;align-items:center}.info-bar-title{font-size:1.5rem}.info-item{font-size:16px}.hero-body{font-size:0.92rem}.glass-card p{font-size:0.95rem}.what-card p{font-size:0.95rem}.tcarousel{padding:0 0.25rem}.badge{font-size:12px;padding:6px 16px;letter-spacing:0.5px}}
 .section-faq{position:relative;padding:5rem 24px;overflow:hidden}
 .section-faq::before{content:'';position:absolute;inset:0;background:rgba(26,15,38,0.82);z-index:1}
 .section-faq .container{position:relative;z-index:2}
@@ -189,7 +190,7 @@ h1,h2{font-family:'Gveret Levin AlefAlefAlef','Frank Ruhl Libre',serif}
     <div class="divider"></div>
     <p class="lead">ערב אינטראקטיבי שמחבר פסיכולוגיה ורוחניות בגובה העיניים</p>
     <div class="what-grid" style="max-width:800px;margin:0 auto">
-      <div class="what-card" style="margin:0">
+      <div class="what-card what-grid-card">
         <ul style="list-style:none;padding:0;margin:0;text-align:center">
           <li style="padding:0.4rem 0">✦ נשתמש בקלפים כדי לזהות דפוסים ואמונות שחוזרים בחיים שלנו</li>
           <li style="padding:0.4rem 0">✦ נכיר את עולם הארכיטיפים ונראה אילו דמויות פנימיות מנהלות אותנו</li>
@@ -199,7 +200,7 @@ h1,h2{font-family:'Gveret Levin AlefAlefAlef','Frank Ruhl Libre',serif}
         </ul>
         <div class="tag">✦ זו לא הרצאה, זו חוויה ✦</div>
       </div>
-      <div class="what-card" style="margin:0">
+      <div class="what-card what-grid-card">
         <p style="font-weight:700;margin-bottom:0.75rem;font-size:1.1rem;text-align:center">עם מה תצאי בסוף הערב?</p>
         <p style="text-align:center;line-height:1.9">בסוף הערב את לא אמורה לדעת לנבא את העתיד.<br>את אמורה לצאת עם דרך חדשה להסתכל על עצמך.<br><br>עם יותר בהירות לגבי דפוס שחוזר אצלך, אמונה שמגבילה אותך, חלק בתוכך שמבקש יותר מקום, וכלים להשתמש בקלפים להתבוננות גם אחרי הכנס.</p>
       </div>
